@@ -21,9 +21,9 @@ class Program
             triangle1 
         };
 
-        for (int i = 0; i < shapes.Count; i++)
+        foreach (Shape shape in shapes)
         {
-            Console.WriteLine(shapes[i].ToString());
+            Console.WriteLine(shape.ToString());
         }
     }
 }
